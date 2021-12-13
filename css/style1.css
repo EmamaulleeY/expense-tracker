@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(../images/b.jpg) fixed center;
+    background-size: cover;
+    background-position: center;
+}
+.container4{
+    border-radius: 10px;
+    background: whitesmoke;
+    padding: 4px;
+    text-align: center;
+    width: 225px;
+    margin: 25px auto;
+}
+.container3{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    max-width: 100px;
+    margin: 25px auto;
+}
+.container2{
+    border-radius: 10px;
+    background: gray;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    width: 225px;
+    margin: 25px auto;
+}
+
+.container1{
+    border-radius: 10px;
+    background: gray;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    width: 225px;
+    margin: 25px auto;
+}
+.container{
+    border-radius: 10px;
+    background: gray;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    width: 225px;
+    margin: 25px auto;
+}

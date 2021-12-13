@@ -1,0 +1,10 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+.container5{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    max-width: 275px;
+    margin: 25px auto;
+}
