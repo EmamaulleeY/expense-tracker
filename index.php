@@ -31,7 +31,7 @@
     <div id="error1" class = "col-md-6 login-right">
         <h2> Register Here </h2>
         <!--This form is being posted here itself on this page -->
-        <form id="form1" action="login.php" method="POST">
+        <form id="form1" action="index.php" method="POST">
             <div class= "form-group">
                 <label>Username</label>
                 <input type="text" name="user" class="form-control" required>
