@@ -15,7 +15,7 @@
     <div id="error" class = "col-md-6 login-left">
         <h2> Login Here </h2>
         <!--This form is being posted to validation.php -->
-        <form id="form" action="validation.php" method="POST">
+        <form id="form" action="../php/validation.php" method="POST">
             <div class= "form-group">
                 <label>Username</label>
                 <input type="text" name="user1" class="form-control" required>
@@ -31,7 +31,7 @@
     <div id="error1" class = "col-md-6 login-right">
         <h2> Register Here </h2>
         <!--This form is being posted here itself on this page -->
-        <form id="form1" action="login.php" method="POST">
+        <form id="form1" action="../php/login.php" method="POST">
             <div class= "form-group">
                 <label>Username</label>
                 <input type="text" name="user" class="form-control" required>
@@ -56,7 +56,7 @@
 
 session_start();
 #this is done to connect to the database
-require_once 'connect.php';
+require_once '../php/connect.php';
 
 #if the submit button for registration is hit
 if(isset($_POST['reg'])){
