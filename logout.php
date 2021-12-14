@@ -5,6 +5,6 @@ session_start();
 session_destroy();
 
 #redirected to login.php
-header('location:login.php');
+header('location:index.php');
 
 ?>
