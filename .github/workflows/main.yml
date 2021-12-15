@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
         server: yaseenexpensetracker.atwebpages.com
-        username: 4006122_yaseenexpensetracker
+        username: 4006122_eyexpensetracker
         password: ${{ secrets.ftp_password }}
         protocol: ftps
-        server-dir: yaseenexpensetracker.atwebpages.com/
+        server-dir: http://eyexpensetracker.atwebpages.com/
