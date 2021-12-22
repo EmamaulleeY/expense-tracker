@@ -9,3 +9,6 @@ This project should be run my using xaamp and phpmyadmin
 The subdomain is "eyexpensetracker.atwebpages.com"
 
 When entering the subdomain in the browser, it only displays the login page and it does not run further as i am using localhost to run the project
+Find in the images folder the message it diplays
+
+Also find in the images folder the page speed
