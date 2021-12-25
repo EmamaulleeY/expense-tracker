@@ -49,7 +49,7 @@ $query = $conn->query(
 
 foreach($query as $data){
 $month[] = $data['mname'];
-$amount = $data['chart'];
+$amount[] = $data['chart'];
 }
 ?>
 
